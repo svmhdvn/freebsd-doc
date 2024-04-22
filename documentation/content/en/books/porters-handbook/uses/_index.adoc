@@ -785,14 +785,17 @@ Registers a dependency on package:textproc/groff[] if not present in the base sy
 [[uses-gssapi]]
 == `gssapi`
 
-Possible arguments: (none), `base` (default), `heimdal`, `mit`, `flags`, `bootstrap`
+Possible arguments: (none), `base` (default), `heimdal`, `mit`, `heimdal-devel`, `mit-devel`, `flags`, `bootstrap`
 
-Handle dependencies needed by consumers of the GSS-API.
+Handle dependencies needed by consumers of the GSSAPI.
 Only libraries that provide the Kerberos mechanism are available.
-By default, or set to `base`, the GSS-API library from the base system is used.
+By default, or when set to `base`, the GSSAPI library from the base system is used.
 Can also be set to `heimdal` to use package:security/heimdal[], or `mit` to use package:security/krb5[].
+The `heimdal-devel` and `mit-devel` counterparts can be set to use package:security/heimdal-devel[] or package:security/krb5-devel[] respectively.
 
-When the local Kerberos installation is not in `LOCALBASE`, set `HEIMDAL_HOME` (for `heimdal`) or `KRB5_HOME` (for `krb5`) to the location of the Kerberos installation.
+When the local Kerberos installation is not in `LOCALBASE`, set `HEIMDAL_HOME` (for `heimdal` or `heimdal-devel`) or `KRB5_HOME` (for `krb5` or `krb5-devel`) to the location of the Kerberos installation.
+
+The default version is set by the usual `DEFAULT_VERSIONS` mechanism, unless an alternate provider is specified as an argument (for example, `USES=gssapi:heimdal-devel`).
 
 These variables are exported for the ports to use:
 
@@ -803,11 +806,13 @@ These variables are exported for the ports to use:
 * `GSSAPILIBDIR`
 * `GSSAPILIBS`
 * `GSSAPI_CONFIGURE_ARGS`
+* `GSSAPI_PROVIDER`
+* `GSSAPI_VENDOR`
 
-The `flags` option can be given alongside `base`, `heimdal`, or `mit` to automatically add `GSSAPICPPFLAGS`, `GSSAPILDFLAGS`, and `GSSAPILIBS` to `CFLAGS`, `LDFLAGS`, and `LDADD`, respectively.
+The `flags` option can be set after the primary provider argument to automatically add `GSSAPICPPFLAGS`, `GSSAPILDFLAGS`, and `GSSAPILIBS` to `CFLAGS`, `LDFLAGS`, and `LDADD`, respectively.
 For example, use `base,flags`.
 
-The `bootstrap` option is a special prefix only for use by package:security/krb5[] and package:security/heimdal[].
+The `bootstrap` option is a special prefix only for use before provider arguments that are not `base`.
 For example, use `bootstrap,mit`.
 
 [[uses-gssapi-ex1]]
@@ -816,16 +821,31 @@ For example, use `bootstrap,mit`.
 ====
 [.programlisting]
 ....
-OPTIONS_SINGLE=	GSSAPI
-OPTIONS_SINGLE_GSSAPI=	GSSAPI_BASE GSSAPI_HEIMDAL GSSAPI_MIT GSSAPI_NONE
+OPTIONS_DEFINE=		GSSAPI
 
-GSSAPI_BASE_USES=	gssapi
-GSSAPI_BASE_CONFIGURE_ON=	--with-gssapi=${GSSAPIBASEDIR} ${GSSAPI_CONFIGURE_ARGS}
-GSSAPI_HEIMDAL_USES=	gssapi:heimdal
-GSSAPI_HEIMDAL_CONFIGURE_ON=	--with-gssapi=${GSSAPIBASEDIR} ${GSSAPI_CONFIGURE_ARGS}
-GSSAPI_MIT_USES=	gssapi:mit
-GSSAPI_MIT_CONFIGURE_ON=	--with-gssapi=${GSSAPIBASEDIR} ${GSSAPI_CONFIGURE_ARGS}
-GSSAPI_NONE_CONFIGURE_ON=	--without-gssapi
+GSSAPI_USES=		gssapi
+GSSAPI_CONFIGURE_ON=	--with-gssapi=${GSSAPIBASEDIR} ${GSSAPI_CONFIGURE_ARGS}
+GSSAPI_CONFIGURE_OFF=	--without-gssapi
+....
+
+====
+
+[[uses-gssapi-ex2]]
+.Overriding the DEFAULT_VERSIONS mechanism with only specific providers supported
+[example]
+====
+[.programlisting]
+....
+# Only support heimdal-based providers from the Ports collection
+OPTIONS_SINGLE=				GSSAPI
+OPTIONS_SINGLE_GSSAPI=			GSSAPI_NONE GSSAPI_HEIMDAL GSSAPI_HEIMDAL_DEVEL
+OPTIONS_DEFAULT=			GSSAPI_NONE
+
+GSSAPI_NONE_CONFIGURE_ON=		--without-gssapi
+GSSAPI_HEIMDAL_USES=			gssapi:heimdal
+GSSAPI_HEIMDAL_CONFIGURE_ON=		--with-gssapi=${GSSAPIBASEDIR} ${GSSAPI_CONFIGURE_ARGS}
+GSSAPI_HEIMDAL_DEVEL_USES=		gssapi:heimdal-devel
+GSSAPI_HEIMDAL_DEVEL_CONFIGURE_ON=	--with-gssapi=${GSSAPIBASEDIR} ${GSSAPI_CONFIGURE_ARGS}
 ....
 
 ====
