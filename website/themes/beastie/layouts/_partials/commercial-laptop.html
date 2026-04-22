@@ -1,3 +1,15 @@
+{{ $laptopsPath := (printf "data/%s/vendors/laptops.toml" $.Language.Lang) }}
+
+{{ $laptopData := "" }}
+{{ if (fileExists $laptopsPath) }}
+  {{ $data := index .Site.Data $.Language.Lang }}
+  {{ $laptopData = $data.vendors }}
+{{ else }}
+  {{ $dataDefault := index .Site.Data .Sites.Default.Language.Lang }}
+  {{ $laptopData = $dataDefault.vendors }}
+{{ end }}
+
+{{ with $laptopData.laptops }}
 <table>
   <thead>
     <tr>
@@ -5,16 +17,13 @@
       <th>Graphics</th>
       <th>Networking</th>
       <th>Audio</th>
-      <th>Details</th>
+      <th>Links</th>
     </tr>
   </thead>
   <tbody>
-    {{ range .Site.Data.laptops.laptops }}
+    {{ range (sort . "model" "asc") }}
     <tr>
-      <td>
-        <strong>{{ .model }}</strong><br>
-        <small><a href="{{ .probe_url }}">Hardware Probe</a></small>
-      </td>
+      <td><strong>{{ .model }}</strong></td>
       <td>
         Score: {{ .graphics_score }}<br>
         <small>{{ delimit .graphics_devices ", " }}</small>
@@ -28,14 +37,14 @@
         <small>{{ delimit .audio_devices ", " }}</small>
       </td>
       <td>
+        <a href="{{ .probe_url }}">Probe</a>
         {{ if .comments_link }}
-          <a href="{{ .comments_link }}">Comments</a>
-        {{ else }}
-          N/A
+          | <a href="{{ .comments_link }}">Comments</a>
         {{ end }}
       </td>
     </tr>
     {{ end }}
   </tbody>
 </table>
+{{ end }}
 
