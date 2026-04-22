@@ -13,23 +13,30 @@
 <table class="table table-striped">  
   <thead>  
     <tr>  
+      <th>Rank</th>  
       <th>Model</th>  
       <th>Graphics</th>  
       <th>Networking</th>  
       <th>Audio</th>  
       <th>USB</th>  
+      <th>Total Score</th>  
       <th>Probe</th>  
       <th>Comments</th>  
     </tr>  
   </thead>  
   <tbody>  
-    {{ range .laptops }}  
+    {{ $rank := 0 }}  
+    {{ range sort .laptops "totalScore" "desc" }}  
+      {{ $totalScore := add .graphics_score (add .networking_score (add .audio_score .usb_ports_score)) }}  
+      {{ $rank = add $rank 1 }}  
     <tr>  
+      <td>{{ $rank }}</td>  
       <td>{{ .model }}</td>  
       <td>{{ .graphics_score }}</td>  
       <td>{{ .networking_score }}</td>  
       <td>{{ .audio_score }}</td>  
       <td>{{ .usb_ports_score }}</td>  
+      <td><strong>{{ $totalScore }}/8</strong></td>  
       <td><a href="{{ .probe_url }}">Probe</a></td>  
       <td><a href="{{ .comments_link }}">Comments</a></td>  
     </tr>  
