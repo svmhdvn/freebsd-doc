@@ -1,0 +1,39 @@
+{{ $laptopsPath := (printf "data/%s/vendors/laptops.toml" $.Language.Lang) }}  
+  
+{{ $laptopsData := "" }}  
+{{ if (fileExists $laptopsPath) -}}  
+  {{ $data := index .Site.Data $.Language.Lang }}  
+  {{ $laptopsData = $data.vendors }}  
+{{ else }}  
+  {{ $dataDefaultLanguage := index .Site.Data .Sites.Default.Language.Lang }}  
+  {{ $laptopsData = $dataDefaultLanguage.vendors }}  
+{{ end }}  
+  
+{{ with $laptopsData.laptops }}  
+<table class="table table-striped">  
+  <thead>  
+    <tr>  
+      <th>Model</th>  
+      <th>Graphics</th>  
+      <th>Networking</th>  
+      <th>Audio</th>  
+      <th>USB</th>  
+      <th>Probe</th>  
+      <th>Comments</th>  
+    </tr>  
+  </thead>  
+  <tbody>  
+    {{ range .laptops }}  
+    <tr>  
+      <td>{{ .model }}</td>  
+      <td>{{ .graphics_score }}</td>  
+      <td>{{ .networking_score }}</td>  
+      <td>{{ .audio_score }}</td>  
+      <td>{{ .usb_ports_score }}</td>  
+      <td><a href="{{ .probe_url }}">Probe</a></td>  
+      <td><a href="{{ .comments_link }}">Comments</a></td>  
+    </tr>  
+    {{ end }}  
+  </tbody>  
+</table>  
+{{ end }}

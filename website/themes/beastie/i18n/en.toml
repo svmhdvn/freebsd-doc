@@ -446,6 +446,9 @@ other = "Source code repositories"
 [releng]
 other = "Release Engineering"
 
+[laptops]  
+other = "Laptops"
+
 [platforms]
 other = "Platforms"
 

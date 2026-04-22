@@ -27,6 +27,9 @@
       {{ if eq .Params.vendor "misc" }}
         {{ partial "commercial-misc.html" . }}
       {{ end }}
+      {{ if eq .Params.vendor "laptops" }}  
+        {{ partial "commercial-laptops.html" . }}  
+      {{ end }}
       {{ if .GitInfo }}
       <hr />
       <div class="last-modified">
