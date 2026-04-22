@@ -1,0 +1,41 @@
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Graphics</th>
+      <th>Networking</th>
+      <th>Audio</th>
+      <th>Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range .Site.Data.laptops.laptops }}
+    <tr>
+      <td>
+        <strong>{{ .model }}</strong><br>
+        <small><a href="{{ .probe_url }}">Hardware Probe</a></small>
+      </td>
+      <td>
+        Score: {{ .graphics_score }}<br>
+        <small>{{ delimit .graphics_devices ", " }}</small>
+      </td>
+      <td>
+        Score: {{ .networking_score }}<br>
+        <small>{{ delimit .networking_devices ", " }}</small>
+      </td>
+      <td>
+        Score: {{ .audio_score }}<br>
+        <small>{{ delimit .audio_devices ", " }}</small>
+      </td>
+      <td>
+        {{ if .comments_link }}
+          <a href="{{ .comments_link }}">Comments</a>
+        {{ else }}
+          N/A
+        {{ end }}
+      </td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>
+
