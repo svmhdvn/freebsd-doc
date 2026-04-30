@@ -1,19 +1,7 @@
 
 [[laptops]]
-model = "Lenovo ThinkBook G6"
-probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/Lenovo_ThinkBook_G6/probe_2026-04-07_09-57-18.txt"
-comments_link = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/Lenovo_ThinkBook_G6/comments.md"
-graphics_score = 1
-networking_score = 2
-audio_score = 2
-usb_ports_score = 2
-graphics_devices = ["Raptor Lake-P [Iris Xe Graphics]"]
-networking_devices = ["Raptor Lake PCH CNVi WiFi", "Ethernet Connection (23) I219-V"]
-audio_devices = ["Raptor Lake-P/U/H cAVS"]
-usb_ports_devices = ["Raptor Lake-P Thunderbolt 4 USB Controller", "Raptor Lake-P Thunderbolt 4 NHI", "Alder Lake PCH USB 3.2 xHCI Host Controller"]
-
-[[laptops]]
 model = "Aspire A315-24PT"
+total_score = 8
 probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/aspire_a315_24pt/probe_2026-04-08_15-48-44.txt"
 graphics_score = 2
 networking_score = 2
@@ -26,6 +14,7 @@ usb_ports_devices = ["USB Controller 1", "USB Controller 2", "USB Controller 3"]
 
 [[laptops]]
 model = "ASUS TUF Gaming F15 FX507VU_FX507VU"
+total_score = 8
 probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/asus_tuf_gaming_f15_fx507vu_fx507vu/probe_2026-04-09_14-34-32.txt"
 comments_link = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/asus_tuf_gaming_f15_fx507vu_fx507vu/comments.md"
 graphics_score = 2
@@ -38,20 +27,8 @@ audio_devices = ["Raptor Lake-P/U/H cAVS", "AD107 High Definition Audio Controll
 usb_ports_devices = ["Raptor Lake-P Thunderbolt 4 USB Controller", "Raptor Lake-P Thunderbolt 4 NHI", "Alder Lake PCH USB 3.2 xHCI Host Controller"]
 
 [[laptops]]
-model = "Beelink SER8"
-probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/beelink_ser8/probe_2026-04-07_22-36-08.txt"
-comments_link = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/beelink_ser8/comments.md"
-graphics_score = 2
-networking_score = 1.5
-audio_score = 2
-usb_ports_score = 2
-graphics_devices = ["HawkPoint1"]
-networking_devices = ["RTL8125 2.5GbE Controller", "Wi-Fi 6 AX200"]
-audio_devices = ["Radeon High Definition Audio Controller [Rembrandt/Strix]", "Family 17h/19h/1ah HD Audio Controller"]
-usb_ports_devices = ["Pink Sardine USB4/Thunderbolt NHI controller"]
-
-[[laptops]]
 model = "Framework Laptop 13 (13th Gen Intel Core)"
+total_score = 8
 probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/framework_laptop_13_13th_gen_intel_core/probe_2026-04-08_20-38-35.txt"
 graphics_score = 2
 networking_score = 2
@@ -64,6 +41,7 @@ usb_ports_devices = ["Raptor Lake-P Thunderbolt 4 USB Controller", "Raptor Lake-
 
 [[laptops]]
 model = "Framework Laptop 13 (AMD Ryzen 7040 Series)"
+total_score = 8
 probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/framework_laptop_13_amd_ryzen_7040_series/probe_2026-02-27_09-50-44.txt"
 graphics_score = 2
 networking_score = 2
@@ -75,19 +53,8 @@ audio_devices = ["Radeon High Definition Audio Controller", "Ryzen HD Audio Cont
 usb_ports_devices = ["Pink Sardine USB4/Thunderbolt NHI controller", "Pink Sardine USB4/Thunderbolt NHI controller"]
 
 [[laptops]]
-model = "HP 250 15.6 inch G9 Notebook PC"
-probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/hp_250_15_6_inch_g9_notebook_pc/probe_2026-04-12_19-07-05.txt"
-graphics_score = 2
-networking_score = 0.5
-audio_score = 2
-usb_ports_score = 2
-graphics_devices = ["Alder Lake-UP3 GT1 [UHD Graphics]"]
-networking_devices = ["RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller", "RTL8821CE 802.11ac PCIe Wireless Network Adapter"]
-audio_devices = ["Alder Lake PCH-P High Definition Audio Controller"]
-usb_ports_devices = ["Alder Lake PCH USB 3.2 xHCI Host Controller"]
-
-[[laptops]]
 model = "HP EliteBook 845 G7 Notebook PC"
+total_score = 8
 probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/hp_elitebook_845_g7_notebook_pc/probe_2026-04-07_13-34-34.txt"
 graphics_score = 2
 networking_score = 2
@@ -100,6 +67,7 @@ usb_ports_devices = ["Renoir/Cezanne USB 3.1", "Renoir/Cezanne USB 3.1"]
 
 [[laptops]]
 model = "Inspiron 7348"
+total_score = 8
 probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/inspiron_7348/probe_2026-04-10_09-49-00.txt"
 graphics_score = 2
 networking_score = 2
@@ -112,6 +80,7 @@ usb_ports_devices = ["Wildcat Point-LP USB xHCI Controller", "Wildcat Point-LP U
 
 [[laptops]]
 model = "Framework Laptop 16 (AMD Ryzen 7040 Series)"
+total_score = 8
 probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/laptop_16__amd_ryzen_7040_series_/probe_2026-04-08_12-07-20.txt"
 graphics_score = 2
 networking_score = 2
@@ -124,6 +93,7 @@ usb_ports_devices = ["Pink Sardine USB4/Thunderbolt NHI controller", "Pink Sardi
 
 [[laptops]]
 model = "Latitude 7490"
+total_score = 8
 probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/latitude_7490/probe_2026-04-07_22-34-15.txt"
 comments_link = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/latitude_7490/comments.md"
 graphics_score = 2
@@ -136,44 +106,8 @@ audio_devices = ["Sunrise Point-LP HD Audio"]
 usb_ports_devices = ["Sunrise Point-LP USB 3.0 xHCI Controller"]
 
 [[laptops]]
-model = "Latitude E4300"
-probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/latitude_e4300/probe_2026-04-07_00-18-42.txt"
-comments_link = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/latitude_e4300/comments.md"
-graphics_score = 2
-networking_score = 1
-audio_score = 2
-usb_ports_score = 2
-graphics_devices = ["Mobile 4 Series Chipset Integrated Graphics Controller"]
-networking_devices = ["82567LM Gigabit Network Connection", "BCM4312 802.11b/g LP-PHY"]
-audio_devices = ["82801I (ICH9 Family) HD Audio Controller"]
-usb_ports_devices = ["82801I (ICH9 Family) USB UHCI Controller", "82801I (ICH9 Family) USB2 EHCI Controller"]
-
-[[laptops]]
-model = "Latitude E6410"
-probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/latitude_e6410/probe_2026-04-09_16-25-04.txt"
-graphics_score = 0.5
-networking_score = 2
-audio_score = 2
-usb_ports_score = 2
-graphics_devices = ["GT218M [NVS 3100M]"]
-networking_devices = ["82577LM Gigabit Network Connection", "Centrino Advanced-N 6200"]
-audio_devices = ["5 Series/3400 Series Chipset High Definition Audio", "High Definition Audio Controller"]
-usb_ports_devices = ["5 Series/3400 Series Chipset USB2 Enhanced Host Controller", "5 Series/3400 Series Chipset USB2 Enhanced Host Controller"]
-
-[[laptops]]
-model = "Lenovo G40 70"
-probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/lenovo_g40_70/probe_2026-04-12_14-34-50.txt"
-graphics_score = 2
-networking_score = 0.5
-audio_score = 2
-usb_ports_score = 2
-graphics_devices = ["Haswell-ULT Integrated Graphics Controller"]
-networking_devices = ["RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller", "RTL8723BE PCIe Wireless Network Adapter"]
-audio_devices = ["Haswell-ULT HD Audio Controller", "8 Series HD Audio Controller"]
-usb_ports_devices = ["8 Series USB xHCI HC", "8 Series USB EHCI"]
-
-[[laptops]]
 model = "Lenovo IdeaPad 1"
+total_score = 8
 probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/lenovo_ideapad_1/probe_2026-04-12_00-20-31.txt"
 graphics_score = 2
 networking_score = 2
@@ -186,6 +120,7 @@ usb_ports_devices = ["Alder Lake-P Thunderbolt 4 USB Controller", "Alder Lake PC
 
 [[laptops]]
 model = "Lenovo IdeaPad 5 15ALC05"
+total_score = 8
 probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/lenovo_ideapad_5/probe_2026-04-07_18-15-14.txt"
 comments_link = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/lenovo_ideapad_5/comments.md"
 graphics_score = 2
@@ -198,32 +133,8 @@ audio_devices = ["Renoir/Cezanne HDMI/DP Audio Controller", "Ryzen HD Audio Cont
 usb_ports_devices = ["Renoir/Cezanne USB 3.1", "Renoir/Cezanne USB 3.1"]
 
 [[laptops]]
-model = "Lenovo ThinkPad T14 Gen 2 (AMD)"
-probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/lenovo_t14_gen_2_amd/probe_2026-04-07_08-21-55.txt"
-graphics_score = 2
-networking_score = 0.5
-audio_score = 2
-usb_ports_score = 2
-graphics_devices = ["Cezanne [Radeon Vega Series / Radeon Vega Mobile Series]"]
-networking_devices = ["RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller", "MT7921 802.11ax PCIe Wireless Network Adapter [Filogic 330]", "RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller"]
-audio_devices = ["Renoir/Cezanne HDMI/DP Audio Controller", "Ryzen HD Audio Controller"]
-usb_ports_devices = ["Renoir/Cezanne USB 3.1", "Renoir/Cezanne USB 3.1"]
-
-[[laptops]]
-model = "Lenovo ThinkPad T14s Gen 4 (AMD)"
-probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/lenovo_t14s_gen4_amd_21f8cto1ww/probe_2026-04-09_03-55-08.txt"
-comments_link = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/lenovo_t14s_gen4_amd_21f8cto1ww/comments.md"
-graphics_score = 2
-networking_score = 0
-audio_score = 2
-usb_ports_score = 2
-graphics_devices = ["Phoenix1"]
-networking_devices = ["QCNFA765 Wireless Network Adapter"]
-audio_devices = ["Radeon High Definition Audio Controller", "Ryzen HD Audio Controller"]
-usb_ports_devices = ["USB Controller 1", "USB Controller 2"]
-
-[[laptops]]
 model = "Lenovo ThinkPad E595"
+total_score = 8
 probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/lenovo_thinkpad_e595/probe_2026-04-10_10-50-48.txt"
 comments_link = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/lenovo_thinkpad_e595/comments.md"
 graphics_score = 2
@@ -237,6 +148,7 @@ usb_ports_devices = ["Raven USB 3.1", "Raven USB 3.1"]
 
 [[laptops]]
 model = "Lenovo ThinkPad T490"
+total_score = 8
 probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/lenovo_thinkpad_t490/probe_2026-04-08_11-40-46.txt"
 comments_link = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/lenovo_thinkpad_t490/comments.md"
 graphics_score = 2
@@ -250,6 +162,7 @@ usb_ports_devices = ["Cannon Point-LP USB 3.1 xHCI Controller", "JHL7440 Thunder
 
 [[laptops]]
 model = "Lenovo ThinkPad X270"
+total_score = 8
 probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/lenovo_x270/probe_2026-04-08_18-30-17.txt"
 graphics_score = 2
 networking_score = 2
@@ -262,6 +175,7 @@ usb_ports_devices = ["Sunrise Point-LP USB 3.0 xHCI Controller"]
 
 [[laptops]]
 model = "Lenovo Yoga 11e"
+total_score = 8
 probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/lenovo_yoga_11e/probe_2026-03-19_20-51-30.txt"
 graphics_score = 2
 networking_score = 2
@@ -273,32 +187,8 @@ audio_devices = ["Sunrise Point-LP HD Audio"]
 usb_ports_devices = ["Sunrise Point-LP USB 3.0 xHCI Controller"]
 
 [[laptops]]
-model = "Lenovo Yoga Pro 7"
-probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/lenovo_yoga_pro-7-14asp9-83hn/lenovo-yoga-pro7-14asp9-83hn.txt"
-graphics_score = 2
-networking_score = 0
-audio_score = 2
-usb_ports_score = 2
-graphics_devices = ["Strix [Radeon 880M / 890M]"]
-networking_devices = ["MT7922 802.11ax PCI Express Wireless Network Adapter"]
-audio_devices = ["Radeon High Definition Audio Controller [Rembrandt/Strix]", "Family 17h/19h/1ah HD Audio Controller"]
-usb_ports_devices = ["USB4 Router 0"]
-
-[[laptops]]
-model = "MacBook Pro 13 inch (2016)"
-probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/macbook_pro_13_2016/probe_2026-04-06_20-21-31.txt"
-comments_link = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/macbook_pro_13_2016/comments.md"
-graphics_score = 2
-networking_score = 1
-audio_score = 2
-usb_ports_score = 2
-graphics_devices = ["Iris Graphics 540"]
-networking_devices = ["BCM4350 802.11ac Wireless Network Adapter"]
-audio_devices = ["Sunrise Point-LP HD Audio"]
-usb_ports_devices = ["Sunrise Point-LP USB 3.0 xHCI Controller", "JHL6540 Thunderbolt 3 USB Controller (C step) [Alpine Ridge 4C 2016]"]
-
-[[laptops]]
 model = "Presario CQ56 Notebook PC"
+total_score = 8
 probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/presario_cq56_notebook_pc/probe_2026-04-12_20-44-44.txt"
 comments_link = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/presario_cq56_notebook_pc/comments.md"
 graphics_score = 2
@@ -311,7 +201,196 @@ audio_devices = ["82801I (ICH9 Family) HD Audio Controller"]
 usb_ports_devices = ["82801I (ICH9 Family) USB UHCI Controller", "82801I (ICH9 Family) USB2 EHCI Controller"]
 
 [[laptops]]
+model = "XPS 9315"
+total_score = 8
+probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/xps_9315/probe_2026-04-10_23-38-16.txt"
+graphics_score = 2
+networking_score = 2
+audio_score = 2
+usb_ports_score = 2
+graphics_devices = ["Alder Lake-UP4 GT2 [Iris Xe Graphics]"]
+networking_devices = ["Alder Lake-P PCH CNVi WiFi"]
+audio_devices = ["Alder Lake Imaging Signal Processor", "Alder Lake Smart Sound Technology Audio Controller"]
+usb_ports_devices = ["Alder Lake-P Thunderbolt 4 USB Controller", "Alder Lake-P Thunderbolt 4 NHI", "Alder Lake PCH USB 3.2 xHCI Host Controller"]
+
+[[laptops]]
+model = "Lenovo ThinkPad T14 Gen 2 (Intel)"
+total_score = 8
+probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/20w0004dmh/probe_2026-04-19_14-34-07.txt"
+comments_link = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/20w0004dmh/comments.md"
+graphics_score = 2
+networking_score = 2
+audio_score = 2
+usb_ports_score = 2
+graphics_devices = ["TigerLake-LP GT2 [Iris Xe Graphics]"]
+networking_devices = ["Ethernet Connection (13) I219-V", "Wi-Fi 6E(802.11ax) AX210/AX1675* 2x2 [Typhoon Peak]"]
+audio_devices = ["Tiger Lake-LP Smart Sound Technology Audio Controller"]
+usb_ports_devices = ["Tiger Lake-LP Thunderbolt 4 USB Controller", "Tiger Lake-LP Thunderbolt 4 NHI", "Tiger Lake-LP Thunderbolt 4 NHI", "Tiger Lake-LP USB 3.2 Gen 2x1 xHCI Host Controller"]
+
+[[laptops]]
+model = "HP Laptop 15-ef2xxx"
+total_score = 8
+probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/hp_laptop_15_ef2xxx/probe_2026-04-26_13-39-59.txt"
+graphics_score = 2
+networking_score = 2
+audio_score = 2
+usb_ports_score = 2
+graphics_devices = ["Lucienne"]
+networking_devices = ["RTL8821CE 802.11ac PCIe Wireless Network Adapter"]
+audio_devices = ["Renoir/Cezanne HDMI/DP Audio Controller", "Ryzen HD Audio Controller"]
+usb_ports_devices = ["Renoir/Cezanne USB 3.1", "Renoir/Cezanne USB 3.1"]
+
+[[laptops]]
+model = "HP ProBook x360 435 G7"
+total_score = 8
+probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/hp_probook_x360_435_g7/probe_2026-04-23_00-16-47.txt"
+graphics_score = 2
+networking_score = 2
+audio_score = 2
+usb_ports_score = 2
+graphics_devices = ["Renoir [Radeon Vega Series / Radeon Vega Mobile Series]"]
+networking_devices = ["RTL8822CE 802.11ac PCIe Wireless Network Adapter"]
+audio_devices = ["Renoir/Cezanne HDMI/DP Audio Controller", "Ryzen HD Audio Controller"]
+usb_ports_devices = ["Renoir/Cezanne USB 3.1", "Renoir/Cezanne USB 3.1"]
+
+[[laptops]]
+model = "Latitude 7400"
+total_score = 8
+probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/latitude_7400/probe_2026-04-20_22-04-54.txt"
+graphics_score = 2
+networking_score = 2
+audio_score = 2
+usb_ports_score = 2
+graphics_devices = ["WhiskeyLake-U GT2 [UHD Graphics 620]"]
+networking_devices = ["Cannon Point-LP CNVi [Wireless-AC]"]
+audio_devices = ["Cannon Point-LP High Definition Audio Controller"]
+usb_ports_devices = ["Cannon Point-LP USB 3.1 xHCI Controller", "JHL6340 Thunderbolt 3 USB 3.1 Controller (C step) [Alpine Ridge 2C 2016]"]
+
+[[laptops]]
+model = "Beelink SER8"
+total_score = 7.5
+probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/beelink_ser8/probe_2026-04-07_22-36-08.txt"
+comments_link = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/beelink_ser8/comments.md"
+graphics_score = 2
+networking_score = 1.5
+audio_score = 2
+usb_ports_score = 2
+graphics_devices = ["HawkPoint1"]
+networking_devices = ["RTL8125 2.5GbE Controller", "Wi-Fi 6 AX200"]
+audio_devices = ["Radeon High Definition Audio Controller [Rembrandt/Strix]", "Family 17h/19h/1ah HD Audio Controller"]
+usb_ports_devices = ["Pink Sardine USB4/Thunderbolt NHI controller"]
+
+[[laptops]]
+model = "Lenovo ThinkBook G6"
+total_score = 7
+probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/Lenovo_ThinkBook_G6/probe_2026-04-07_09-57-18.txt"
+comments_link = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/Lenovo_ThinkBook_G6/comments.md"
+graphics_score = 1
+networking_score = 2
+audio_score = 2
+usb_ports_score = 2
+graphics_devices = ["Raptor Lake-P [Iris Xe Graphics]"]
+networking_devices = ["Raptor Lake PCH CNVi WiFi", "Ethernet Connection (23) I219-V"]
+audio_devices = ["Raptor Lake-P/U/H cAVS"]
+usb_ports_devices = ["Raptor Lake-P Thunderbolt 4 USB Controller", "Raptor Lake-P Thunderbolt 4 NHI", "Alder Lake PCH USB 3.2 xHCI Host Controller"]
+
+[[laptops]]
+model = "Latitude E4300"
+total_score = 7
+probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/latitude_e4300/probe_2026-04-07_00-18-42.txt"
+comments_link = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/latitude_e4300/comments.md"
+graphics_score = 2
+networking_score = 1
+audio_score = 2
+usb_ports_score = 2
+graphics_devices = ["Mobile 4 Series Chipset Integrated Graphics Controller"]
+networking_devices = ["82567LM Gigabit Network Connection", "BCM4312 802.11b/g LP-PHY"]
+audio_devices = ["82801I (ICH9 Family) HD Audio Controller"]
+usb_ports_devices = ["82801I (ICH9 Family) USB UHCI Controller", "82801I (ICH9 Family) USB2 EHCI Controller"]
+
+[[laptops]]
+model = "MacBook Pro 13 inch (2016)"
+total_score = 7
+probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/macbook_pro_13_2016/probe_2026-04-06_20-21-31.txt"
+comments_link = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/macbook_pro_13_2016/comments.md"
+graphics_score = 2
+networking_score = 1
+audio_score = 2
+usb_ports_score = 2
+graphics_devices = ["Iris Graphics 540"]
+networking_devices = ["BCM4350 802.11ac Wireless Network Adapter"]
+audio_devices = ["Sunrise Point-LP HD Audio"]
+usb_ports_devices = ["Sunrise Point-LP USB 3.0 xHCI Controller", "JHL6540 Thunderbolt 3 USB Controller (C step) [Alpine Ridge 4C 2016]"]
+
+[[laptops]]
+model = "HP 250 15.6 inch G9 Notebook PC"
+total_score = 6.5
+probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/hp_250_15_6_inch_g9_notebook_pc/probe_2026-04-12_19-07-05.txt"
+graphics_score = 2
+networking_score = 0.5
+audio_score = 2
+usb_ports_score = 2
+graphics_devices = ["Alder Lake-UP3 GT1 [UHD Graphics]"]
+networking_devices = ["RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller", "RTL8821CE 802.11ac PCIe Wireless Network Adapter"]
+audio_devices = ["Alder Lake PCH-P High Definition Audio Controller"]
+usb_ports_devices = ["Alder Lake PCH USB 3.2 xHCI Host Controller"]
+
+[[laptops]]
+model = "Latitude E6410"
+total_score = 6.5
+probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/latitude_e6410/probe_2026-04-09_16-25-04.txt"
+graphics_score = 0.5
+networking_score = 2
+audio_score = 2
+usb_ports_score = 2
+graphics_devices = ["GT218M [NVS 3100M]"]
+networking_devices = ["82577LM Gigabit Network Connection", "Centrino Advanced-N 6200"]
+audio_devices = ["5 Series/3400 Series Chipset High Definition Audio", "High Definition Audio Controller"]
+usb_ports_devices = ["5 Series/3400 Series Chipset USB2 Enhanced Host Controller", "5 Series/3400 Series Chipset USB2 Enhanced Host Controller"]
+
+[[laptops]]
+model = "Lenovo G40 70"
+total_score = 6.5
+probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/lenovo_g40_70/probe_2026-04-12_14-34-50.txt"
+graphics_score = 2
+networking_score = 0.5
+audio_score = 2
+usb_ports_score = 2
+graphics_devices = ["Haswell-ULT Integrated Graphics Controller"]
+networking_devices = ["RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller", "RTL8723BE PCIe Wireless Network Adapter"]
+audio_devices = ["Haswell-ULT HD Audio Controller", "8 Series HD Audio Controller"]
+usb_ports_devices = ["8 Series USB xHCI HC", "8 Series USB EHCI"]
+
+[[laptops]]
+model = "Lenovo ThinkPad T14 Gen 2 (AMD)"
+total_score = 6.5
+probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/lenovo_t14_gen_2_amd/probe_2026-04-07_08-21-55.txt"
+graphics_score = 2
+networking_score = 0.5
+audio_score = 2
+usb_ports_score = 2
+graphics_devices = ["Cezanne [Radeon Vega Series / Radeon Vega Mobile Series]"]
+networking_devices = ["RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller", "MT7921 802.11ax PCIe Wireless Network Adapter [Filogic 330]", "RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller"]
+audio_devices = ["Renoir/Cezanne HDMI/DP Audio Controller", "Ryzen HD Audio Controller"]
+usb_ports_devices = ["Renoir/Cezanne USB 3.1", "Renoir/Cezanne USB 3.1"]
+
+[[laptops]]
+model = "MSI GE60 2OE"
+total_score = 6.5
+probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/msi_ge60_20e/probe_2026-04-21_17-32-34.txt"
+comments_link = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/msi_ge60_20e/comments.md"
+graphics_score = 2
+networking_score = 0.5
+audio_score = 2
+usb_ports_score = 2
+graphics_devices = ["4th Gen Core Processor Integrated Graphics Controller"]
+networking_devices = ["Killer E220x Gigabit Ethernet Controller", "RTL8723AE PCIe Wireless Network Adapter"]
+audio_devices = ["Xeon E3-1200 v3/4th Gen Core Processor HD Audio Controller", "8 Series/C220 Series Chipset High Definition Audio Controller"]
+usb_ports_devices = ["8 Series/C220 Series Chipset Family USB xHCI", "8 Series/C220 Series Chipset Family USB EHCI", "8 Series/C220 Series Chipset Family USB EHCI"]
+
+[[laptops]]
 model = "TUXEDO InfinityBook Pro AMD Gen9"
+total_score = 6.25
 probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/tuxedo_infinitybook_pro_amd_gen9/probe_2026-04-09_19-15-38.txt"
 comments_link = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/tuxedo_infinitybook_pro_amd_gen9/comments.md"
 graphics_score = 2
@@ -324,13 +403,41 @@ audio_devices = ["Radeon High Definition Audio Controller", "Ryzen HD Audio Cont
 usb_ports_devices = ["Pink Sardine USB4/Thunderbolt NHI controller"]
 
 [[laptops]]
-model = "XPS 9315"
-probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/xps_9315/probe_2026-04-10_23-38-16.txt"
+model = "Lenovo ThinkPad T14s Gen 4 (AMD)"
+total_score = 6
+probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/lenovo_t14s_gen4_amd_21f8cto1ww/probe_2026-04-09_03-55-08.txt"
+comments_link = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/lenovo_t14s_gen4_amd_21f8cto1ww/comments.md"
 graphics_score = 2
-networking_score = 2
+networking_score = 0
 audio_score = 2
 usb_ports_score = 2
-graphics_devices = ["Alder Lake-UP4 GT2 [Iris Xe Graphics]"]
-networking_devices = ["Alder Lake-P PCH CNVi WiFi"]
-audio_devices = ["Alder Lake Imaging Signal Processor", "Alder Lake Smart Sound Technology Audio Controller"]
-usb_ports_devices = ["Alder Lake-P Thunderbolt 4 USB Controller", "Alder Lake-P Thunderbolt 4 NHI", "Alder Lake PCH USB 3.2 xHCI Host Controller"]
+graphics_devices = ["Phoenix1"]
+networking_devices = ["QCNFA765 Wireless Network Adapter"]
+audio_devices = ["Radeon High Definition Audio Controller", "Ryzen HD Audio Controller"]
+usb_ports_devices = ["USB Controller 1", "USB Controller 2"]
+
+[[laptops]]
+model = "Lenovo Yoga Pro 7"
+total_score = 6
+probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/lenovo_yoga_pro-7-14asp9-83hn/lenovo-yoga-pro7-14asp9-83hn.txt"
+graphics_score = 2
+networking_score = 0
+audio_score = 2
+usb_ports_score = 2
+graphics_devices = ["Strix [Radeon 880M / 890M]"]
+networking_devices = ["MT7922 802.11ax PCI Express Wireless Network Adapter"]
+audio_devices = ["Radeon High Definition Audio Controller [Rembrandt/Strix]", "Family 17h/19h/1ah HD Audio Controller"]
+usb_ports_devices = ["USB4 Router 0"]
+
+[[laptops]]
+model = "Surface Book with Performance Base"
+total_score = 6
+probe_url = "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results/surface_book_performance_base/probe_2026-04-27_23-25-31.txt"
+graphics_score = 2
+networking_score = 0
+audio_score = 2
+usb_ports_score = 2
+graphics_devices = ["Skylake-U GT2 [HD Graphics 520]"]
+networking_devices = ["88W8897 [AVASTAR] 802.11ac Wireless"]
+audio_devices = ["Sunrise Point-LP HD Audio"]
+usb_ports_devices = ["Sunrise Point-LP USB 3.0 xHCI Controller"]
