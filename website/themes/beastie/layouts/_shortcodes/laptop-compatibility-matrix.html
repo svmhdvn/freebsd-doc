@@ -1,0 +1,62 @@
+{{ $data := index hugo.Data hugo.Sites.Default.Language.Lang }}
+{{ $repo := "https://github.com/FreeBSDFoundation/freebsd-laptop-testing/tree/main/test_results" }}
+
+{{ with $data.vendors.laptops }}
+  {{ $laptops := sort .laptops "model" }}
+== Best supported laptops and desktops
+
+The following systems have received a perfect score during community testing, and are expected to work smoothly with FreeBSD. If you notice any issues on these laptops and desktops, https://github.com/FreeBSDFoundation/freebsd-laptop-testing/blob/main/CONTRIBUTING.md[please submit a report].
+  {{ range where $laptops "total_score" 8 }}
+*   {{ $repo }}/{{ .probe_dir }}[{{ .model }}]
+  {{ end }}
+== Full compatibility matrix
+
+Each system below is scored to a maximum of 8 points (2 points per hardware category), based on an aggregate of:
+
+* How many built-in devices are automatically detected as "functional"
+* Any degraded functionality of devices that are important to the laptop user experience (e.g. Wi-Fi/Graphics)
+* User provided comments that qualitatively describe their experience "out-of-the-box"
+
+.All community tested laptops and desktops
+[.tblwide]
+[cols="3a,3a,3a,3a,3a,3a,",options="header"]
+|===
+|Model |CPU | Graphics |Networking |Audio |USB |Score
+  {{ range $laptops }}
+|{{ $repo }}/{{ .probe_dir }}[{{ .model }}] |{{ .cpu }}
+|
+*Score: {{ .graphics.score }}/2*
+
+'''
+    {{ range uniq .graphics.devices }}
+{{ . }}
+
+     {{ end }}
+|
+*Score: {{ .networking.score }}/2*
+
+'''
+    {{ range uniq .networking.devices }}
+{{ . }}
+
+     {{ end }}
+|
+*Score: {{ .audio.score }}/2*
+
+'''
+    {{ range uniq .audio.devices }}
+{{ . }}
+
+     {{ end }}
+|
+*Score: {{ .usb.score }}/2*
+
+'''
+    {{ range uniq .usb.devices }}
+{{ . }}
+
+     {{ end }}
+|*{{ .total_score }}/8*
+  {{ end }}
+|===
+{{ end }}

@@ -550,6 +550,9 @@ other = "Source code repositories"
 [releng]
 other = "Release Engineering"
 
+[laptopsDesktops]
+other = "Laptops and Desktops"
+
 [platforms]
 other = "Platforms"
 

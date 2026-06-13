@@ -1,0 +1,15 @@
+---
+title: "Laptop and Desktop Compatibility"
+sidenav: support
+vendor: "laptops"
+---
+
+FreeBSD is continually evolving its laptop support through the
+https://github.com/FreeBSDFoundation/proj-laptop/[Laptop Support and Usability Project].
+As part of this effort, the FreeBSD Foundation started a testing phase
+to ensure the comprehensive validation of laptop functionality, known as the https://github.com/FreeBSDFoundation/freebsd-laptop-testing[FreeBSD Laptop Integration Testing Project].
+This page contains a matrix of compatibility information of FreeBSD on these laptops and desktops.
+
+To contribute test results for your laptop or desktop to this matrix, please see the https://github.com/FreeBSDFoundation/freebsd-laptop-testing/blob/main/CONTRIBUTING.md[FreeBSD Laptop Testing Contributing Guide].
+
+{{% laptop-compatibility-matrix %}}

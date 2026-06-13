@@ -1,0 +1,799 @@
+[[laptops]]
+model="ASUS TUF Gaming F15 (2023)"
+cpu="13th Gen Intel(R) Core(TM) i7-13620H"
+total_score=8
+probe_dir="ASUS_TUF_Gaming_F15_2023"
+[laptops.networking]
+devices=["Raptor Lake PCH CNVi WiFi","RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller",]
+score=2
+[laptops.audio]
+devices=["Raptor Lake-P/U/H cAVS","AD107 High Definition Audio Controller",]
+score=2
+[laptops.usb]
+devices=["Raptor Lake-P Thunderbolt 4 USB Controller","Raptor Lake-P Thunderbolt 4 NHI","Alder Lake PCH USB 3.2 xHCI Host Controller",]
+score=2
+[laptops.graphics]
+devices=["Raptor Lake-P [UHD Graphics]","AD107M [GeForce RTX 4050 Max-Q / Mobile]",]
+score=2
+[[laptops]]
+model="Acer Aspire A315-24PT"
+cpu="AMD Ryzen 5 7520U with Radeon Graphics"
+total_score=8
+probe_dir="Acer_Aspire_A315_24PT"
+[laptops.networking]
+devices=["Wi-Fi 6E(802.11ax) AX210/AX1675* 2x2 [Typhoon Peak]",]
+score=2
+[laptops.audio]
+devices=["Radeon High Definition Audio Controller","Ryzen HD Audio Controller",]
+score=2
+[laptops.usb]
+devices=["USB Controller 1","USB Controller 2","USB Controller 3",]
+score=2
+[laptops.graphics]
+devices=["Mendocino [Radeon 610M]",]
+score=2
+[[laptops]]
+model="Beelink SER8"
+cpu="AMD Ryzen 7 8745HS w/ Radeon 780M Graphics"
+total_score=7.5
+probe_dir="Beelink_SER8"
+[laptops.networking]
+devices=["RTL8125 2.5GbE Controller","Wi-Fi 6 AX200",]
+score=1
+[laptops.audio]
+devices=["Radeon High Definition Audio Controller [Rembrandt/Strix]","Family 17h/19h/1ah HD Audio Controller",]
+score=2
+[laptops.usb]
+devices=["Pink Sardine USB4/Thunderbolt NHI controller",]
+score=2
+[laptops.graphics]
+devices=["HawkPoint1",]
+score=2
+[[laptops]]
+model="Dell Inspiron 3543"
+cpu="Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz"
+total_score=7
+probe_dir="Dell_Inspiron_3543"
+[laptops.networking]
+devices=["BCM43142 802.11b/g/n","RTL810xE PCI Express Fast Ethernet controller",]
+score=1
+[laptops.audio]
+devices=["Broadwell-U Audio Controller","Wildcat Point-LP High Definition Audio Controller",]
+score=2
+[laptops.usb]
+devices=["Wildcat Point-LP USB xHCI Controller","Wildcat Point-LP USB EHCI Controller",]
+score=2
+[laptops.graphics]
+devices=["Broadwell-U GT2 [HD Graphics 5500]",]
+score=2
+[[laptops]]
+model="Dell Inspiron 5570"
+cpu="Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz"
+total_score=8
+probe_dir="Dell_Inspiron_5570"
+[laptops.networking]
+devices=["RTL810xE PCI Express Fast Ethernet controller","Wireless 3165",]
+score=2
+[laptops.audio]
+devices=["Sunrise Point-LP HD Audio",]
+score=2
+[laptops.usb]
+devices=["Sunrise Point-LP USB 3.0 xHCI Controller",]
+score=2
+[laptops.graphics]
+devices=["Kaby Lake-R GT2 [UHD Graphics 620]",]
+score=2
+[[laptops]]
+model="Dell Inspiron 7348"
+cpu="Intel(R) Core(TM) i3-5010U CPU @ 2.10GHz"
+total_score=8
+probe_dir="Dell_Inspiron_7348"
+[laptops.networking]
+devices=["Wireless 7265",]
+score=2
+[laptops.audio]
+devices=["Broadwell-U Audio Controller","Wildcat Point-LP High Definition Audio Controller",]
+score=2
+[laptops.usb]
+devices=["Wildcat Point-LP USB xHCI Controller","Wildcat Point-LP USB EHCI Controller",]
+score=2
+[laptops.graphics]
+devices=["Broadwell-U GT2 [HD Graphics 5500]",]
+score=2
+[[laptops]]
+model="Dell Latitude 7400"
+cpu="Intel(R) Core(TM) i5-8365U CPU @ 1.60GHz"
+total_score=8
+probe_dir="Dell_Latitude_7400"
+[laptops.networking]
+devices=["Cannon Point-LP CNVi [Wireless-AC]",]
+score=2
+[laptops.audio]
+devices=["Cannon Point-LP High Definition Audio Controller",]
+score=2
+[laptops.usb]
+devices=["Cannon Point-LP USB 3.1 xHCI Controller","JHL6340 Thunderbolt 3 USB 3.1 Controller (C step) [Alpine Ridge 2C 2016]",]
+score=2
+[laptops.graphics]
+devices=["WhiskeyLake-U GT2 [UHD Graphics 620]",]
+score=2
+[[laptops]]
+model="Dell Latitude 7490"
+cpu="Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz"
+total_score=8
+probe_dir="Dell_Latitude_7490"
+[laptops.networking]
+devices=["Ethernet Connection (4) I219-LM","Wi-Fi 6E(802.11ax) AX210/AX1675* 2x2 [Typhoon Peak]",]
+score=2
+[laptops.audio]
+devices=["Sunrise Point-LP HD Audio",]
+score=2
+[laptops.usb]
+devices=["Sunrise Point-LP USB 3.0 xHCI Controller",]
+score=2
+[laptops.graphics]
+devices=["UHD Graphics 620",]
+score=2
+[[laptops]]
+model="Dell Latitude E4300"
+cpu="Intel(R) Core(TM)2 Duo CPU P9400 @ 2.40GHz"
+total_score=7
+probe_dir="Dell_Latitude_E4300"
+[laptops.networking]
+devices=["82567LM Gigabit Network Connection","BCM4312 802.11b/g LP-PHY",]
+score=1
+[laptops.audio]
+devices=["82801I (ICH9 Family) HD Audio Controller",]
+score=2
+[laptops.usb]
+devices=["82801I (ICH9 Family) USB UHCI Controller","82801I (ICH9 Family) USB2 EHCI Controller",]
+score=2
+[laptops.graphics]
+devices=["Mobile 4 Series Chipset Integrated Graphics Controller",]
+score=2
+[[laptops]]
+model="Dell Latitude E6410"
+cpu="Intel(R) Core(TM) i5 CPU M 520 @ 2.40GHz"
+total_score=6.5
+probe_dir="Dell_Latitude_E6410"
+[laptops.networking]
+devices=["82577LM Gigabit Network Connection","Centrino Advanced-N 6200",]
+score=2
+[laptops.audio]
+devices=["5 Series/3400 Series Chipset High Definition Audio","High Definition Audio Controller",]
+score=2
+[laptops.usb]
+devices=["5 Series/3400 Series Chipset USB2 Enhanced Host Controller","5 Series/3400 Series Chipset USB2 Enhanced Host Controller",]
+score=2
+[laptops.graphics]
+devices=["GT218M [NVS 3100M]",]
+score=0
+[[laptops]]
+model="Dell Latitude E7440"
+cpu="Intel(R) Core(TM) i5-4300U CPU @ 1.90GHz"
+total_score=8
+probe_dir="Dell_Latitude_E7440"
+[laptops.networking]
+devices=["Ethernet Connection I218-LM","Wireless 7260",]
+score=2
+[laptops.audio]
+devices=["Haswell-ULT HD Audio Controller","8 Series HD Audio Controller",]
+score=2
+[laptops.usb]
+devices=["8 Series USB xHCI HC","8 Series USB EHCI",]
+score=2
+[laptops.graphics]
+devices=["Haswell-ULT Integrated Graphics Controller",]
+score=2
+[[laptops]]
+model="Dell System XPS L702X"
+cpu="Intel(R) Core(TM) i7-2630QM CPU @ 2.00GHz"
+total_score=8
+probe_dir="Dell_System_XPS_L702X"
+[laptops.networking]
+devices=["Centrino Advanced-N 6230 [Rainbow Peak]","RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller",]
+score=2
+[laptops.audio]
+devices=["6 Series/C200 Series Chipset Family High Definition Audio Controller",]
+score=2
+[laptops.usb]
+devices=["6 Series/C200 Series Chipset Family USB Enhanced Host Controller","6 Series/C200 Series Chipset Family USB Enhanced Host Controller","uPD720200 USB 3.0 Host Controller",]
+score=2
+[laptops.graphics]
+devices=["2nd Generation Core Processor Family Integrated Graphics Controller","GF106M [GeForce GT 555M]",]
+score=2
+[[laptops]]
+model="Dell XPS 17 9700"
+cpu="Intel(R) Core(TM) i7-10875H CPU @ 2.30GHz"
+total_score=8
+probe_dir="Dell_XPS_17_9700"
+[laptops.networking]
+devices=["Comet Lake PCH CNVi WiFi",]
+score=2
+[laptops.audio]
+devices=["TU106 High Definition Audio Controller",]
+score=2
+[laptops.usb]
+devices=["Comet Lake USB 3.1 xHCI Host Controller","TU106 USB 3.1 Host Controller","JHL7540 Thunderbolt 3 USB Controller [Titan Ridge 4C 2018]","JHL7540 Thunderbolt 3 USB Controller [Titan Ridge 4C 2018]",]
+score=2
+[laptops.graphics]
+devices=["CometLake-H GT2 [UHD Graphics]","TU106M [GeForce RTX 2060 Max-Q]",]
+score=2
+[[laptops]]
+model="Dell XPS 17 9730"
+cpu="13th Gen Intel(R) Core(TM) i9-13900H"
+total_score=8
+probe_dir="Dell_XPS_17_9730"
+[laptops.networking]
+devices=["Raptor Lake PCH CNVi WiFi",]
+score=2
+[laptops.audio]
+devices=["Raptor Lake-P/U/H cAVS",]
+score=2
+[laptops.usb]
+devices=["Raptor Lake-P Thunderbolt 4 USB Controller","Raptor Lake-P Thunderbolt 4 NHI","Raptor Lake-P Thunderbolt 4 NHI","Alder Lake PCH USB 3.2 xHCI Host Controller",]
+score=2
+[laptops.graphics]
+devices=["Raptor Lake-P [Iris Xe Graphics]",]
+score=2
+[[laptops]]
+model="Dell XPS 9315"
+cpu="12th Gen Intel(R) Core(TM) i7-1250U"
+total_score=8
+probe_dir="Dell_XPS_9315"
+[laptops.networking]
+devices=["Alder Lake-P PCH CNVi WiFi",]
+score=2
+[laptops.audio]
+devices=["Alder Lake Imaging Signal Processor","Alder Lake Smart Sound Technology Audio Controller",]
+score=2
+[laptops.usb]
+devices=["Alder Lake-P Thunderbolt 4 USB Controller","Alder Lake-P Thunderbolt 4 NHI","Alder Lake PCH USB 3.2 xHCI Host Controller",]
+score=2
+[laptops.graphics]
+devices=["Alder Lake-UP4 GT2 [Iris Xe Graphics]",]
+score=2
+[[laptops]]
+model="Framework Laptop 13 (13th Gen Intel Core)"
+cpu="13th Gen Intel(R) Core(TM) i7-1370P"
+total_score=8
+probe_dir="Framework_Laptop_13_13th_Gen_Intel_Core"
+[laptops.networking]
+devices=["Wi-Fi 6E(802.11ax) AX210/AX1675* 2x2 [Typhoon Peak]",]
+score=2
+[laptops.audio]
+devices=["Raptor Lake-P/U/H cAVS",]
+score=2
+[laptops.usb]
+devices=["Raptor Lake-P Thunderbolt 4 USB Controller","Raptor Lake-P Thunderbolt 4 NHI","Raptor Lake-P Thunderbolt 4 NHI","Alder Lake PCH USB 3.2 xHCI Host Controller",]
+score=2
+[laptops.graphics]
+devices=["Raptor Lake-P [Iris Xe Graphics]",]
+score=2
+[[laptops]]
+model="Framework Laptop 13 (AMD Ryzen 7040 Series)"
+cpu="AMD Ryzen 7 7840U w/ Radeon 780M Graphics"
+total_score=8
+probe_dir="Framework_Laptop_13_AMD_Ryzen_7040_Series"
+[laptops.networking]
+devices=["Wi-Fi 6E(802.11ax) AX210/AX1675* 2x2 [Typhoon Peak]",]
+score=2
+[laptops.audio]
+devices=["Radeon High Definition Audio Controller","Ryzen HD Audio Controller",]
+score=2
+[laptops.usb]
+devices=["Pink Sardine USB4/Thunderbolt NHI controller","Pink Sardine USB4/Thunderbolt NHI controller",]
+score=2
+[laptops.graphics]
+devices=["Phoenix1",]
+score=2
+[[laptops]]
+model="Framework Laptop 16 (AMD Ryzen 7040 Series)"
+cpu="AMD Ryzen 9 7940HS w/ Radeon 780M Graphics"
+total_score=8
+probe_dir="Framework_Laptop_16_AMD_Ryzen_7040_Series"
+[laptops.networking]
+devices=["Wi-Fi 6E(802.11ax) AX210/AX1675* 2x2 [Typhoon Peak]",]
+score=2
+[laptops.audio]
+devices=["Radeon High Definition Audio Controller","Ryzen HD Audio Controller",]
+score=2
+[laptops.usb]
+devices=["Pink Sardine USB4/Thunderbolt NHI controller","Pink Sardine USB4/Thunderbolt NHI controller",]
+score=2
+[laptops.graphics]
+devices=["Phoenix1",]
+score=2
+[[laptops]]
+model="HP 250 15.6 inch G9 Notebook PC"
+cpu="12th Gen Intel(R) Core(TM) i3-1215U"
+total_score=6.5
+probe_dir="HP_250_15_6_inch_G9_Notebook_PC"
+[laptops.networking]
+devices=["RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller","RTL8821CE 802.11ac PCIe Wireless Network Adapter",]
+score=0
+[laptops.audio]
+devices=["Alder Lake PCH-P High Definition Audio Controller",]
+score=2
+[laptops.usb]
+devices=["Alder Lake PCH USB 3.2 xHCI Host Controller",]
+score=2
+[laptops.graphics]
+devices=["Alder Lake-UP3 GT1 [UHD Graphics]",]
+score=2
+[[laptops]]
+model="HP Compaq Presario CQ56 Notebook PC"
+cpu="Intel(R) Celeron(R) CPU 900 @ 2.20GHz"
+total_score=8
+probe_dir="HP_Compaq_Presario_CQ56_Notebook_PC"
+[laptops.networking]
+devices=["Centrino Wireless-N 2230","RTL810xE PCI Express Fast Ethernet controller",]
+score=2
+[laptops.audio]
+devices=["82801I (ICH9 Family) HD Audio Controller",]
+score=2
+[laptops.usb]
+devices=["82801I (ICH9 Family) USB UHCI Controller","82801I (ICH9 Family) USB2 EHCI Controller",]
+score=2
+[laptops.graphics]
+devices=["Mobile 4 Series Chipset Integrated Graphics Controller",]
+score=2
+[[laptops]]
+model="HP ENVY 17 Notebook PC"
+cpu="Intel(R) Core(TM) i7 CPU Q 720 @ 1.60GHz"
+total_score=8
+probe_dir="HP_ENVY_17_Notebook_PC"
+[laptops.networking]
+devices=["BCM43224 802.11a/b/g/n","RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller",]
+score=2
+[laptops.audio]
+devices=["5 Series/3400 Series Chipset High Definition Audio","Juniper HDMI Audio [Radeon HD 5700 Series]",]
+score=2
+[laptops.usb]
+devices=["5 Series/3400 Series Chipset USB2 Enhanced Host Controller","5 Series/3400 Series Chipset USB2 Enhanced Host Controller","uPD720200 USB 3.0 Host Controller",]
+score=2
+[laptops.graphics]
+devices=["Broadway PRO [Mobility Radeon HD 5850]",]
+score=2
+[[laptops]]
+model="HP EliteBook 845 G7 Notebook PC"
+cpu="AMD Ryzen 5 PRO 4650U with Radeon Graphics"
+total_score=8
+probe_dir="HP_EliteBook_845_G7_Notebook_PC"
+[laptops.networking]
+devices=["Wi-Fi 6 AX200",]
+score=2
+[laptops.audio]
+devices=["Renoir/Cezanne HDMI/DP Audio Controller","Ryzen HD Audio Controller",]
+score=2
+[laptops.usb]
+devices=["Renoir/Cezanne USB 3.1","Renoir/Cezanne USB 3.1",]
+score=2
+[laptops.graphics]
+devices=["Renoir [Radeon Vega Series / Radeon Vega Mobile Series]",]
+score=2
+[[laptops]]
+model="HP Laptop 15-ef2xxx"
+cpu="AMD Ryzen 5 5500U with Radeon Graphics"
+total_score=8
+probe_dir="HP_Laptop_15_ef2xxx"
+[laptops.networking]
+devices=["RTL8821CE 802.11ac PCIe Wireless Network Adapter",]
+score=2
+[laptops.audio]
+devices=["Renoir/Cezanne HDMI/DP Audio Controller","Ryzen HD Audio Controller",]
+score=2
+[laptops.usb]
+devices=["Renoir/Cezanne USB 3.1","Renoir/Cezanne USB 3.1",]
+score=2
+[laptops.graphics]
+devices=["Lucienne",]
+score=2
+[[laptops]]
+model="HP ProBook x360 435 G7"
+cpu="AMD Ryzen 5 4500U with Radeon Graphics"
+total_score=8
+probe_dir="HP_ProBook_x360_435_G7"
+[laptops.networking]
+devices=["RTL8822CE 802.11ac PCIe Wireless Network Adapter",]
+score=2
+[laptops.audio]
+devices=["Renoir/Cezanne HDMI/DP Audio Controller","Ryzen HD Audio Controller",]
+score=2
+[laptops.usb]
+devices=["Renoir/Cezanne USB 3.1","Renoir/Cezanne USB 3.1",]
+score=2
+[laptops.graphics]
+devices=["Renoir [Radeon Vega Series / Radeon Vega Mobile Series]",]
+score=2
+[[laptops]]
+model="Lenovo G40 70"
+cpu="Intel(R) Core(TM) i3-4005U CPU @ 1.70GHz"
+total_score=6.5
+probe_dir="Lenovo_G40_70"
+[laptops.networking]
+devices=["RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller","RTL8723BE PCIe Wireless Network Adapter",]
+score=0
+[laptops.audio]
+devices=["Haswell-ULT HD Audio Controller","8 Series HD Audio Controller",]
+score=2
+[laptops.usb]
+devices=["8 Series USB xHCI HC","8 Series USB EHCI",]
+score=2
+[laptops.graphics]
+devices=["Haswell-ULT Integrated Graphics Controller",]
+score=2
+[[laptops]]
+model="Lenovo IdeaPad 1"
+cpu="12th Gen Intel(R) Core(TM) i3-1215U"
+total_score=8
+probe_dir="Lenovo_IdeaPad_1"
+[laptops.networking]
+devices=["Alder Lake-P PCH CNVi WiFi",]
+score=2
+[laptops.audio]
+devices=["Alder Lake PCH-P High Definition Audio Controller",]
+score=2
+[laptops.usb]
+devices=["Alder Lake-P Thunderbolt 4 USB Controller","Alder Lake PCH USB 3.2 xHCI Host Controller",]
+score=2
+[laptops.graphics]
+devices=["Alder Lake-UP3 GT1 [UHD Graphics]",]
+score=2
+[[laptops]]
+model="Lenovo IdeaPad 5 15ALC05"
+cpu="AMD Ryzen 7 5700U with Radeon Graphics"
+total_score=6
+probe_dir="Lenovo_IdeaPad_5_15ALC05"
+[laptops.networking]
+devices=["MT7921 802.11ax PCIe Wireless Network Adapter [Filogic 330]",]
+score=0
+[laptops.audio]
+devices=["Renoir/Cezanne HDMI/DP Audio Controller","Ryzen HD Audio Controller",]
+score=2
+[laptops.usb]
+devices=["Renoir/Cezanne USB 3.1","Renoir/Cezanne USB 3.1",]
+score=2
+[laptops.graphics]
+devices=["Lucienne",]
+score=2
+[[laptops]]
+model="Lenovo ThinkBook G6"
+cpu="13th Gen Intel(R) Core(TM) i7-13700H"
+total_score=7
+probe_dir="Lenovo_ThinkBook_G6"
+[laptops.networking]
+devices=["Raptor Lake PCH CNVi WiFi","Ethernet Connection (23) I219-V",]
+score=2
+[laptops.audio]
+devices=["Raptor Lake-P/U/H cAVS",]
+score=2
+[laptops.usb]
+devices=["Raptor Lake-P Thunderbolt 4 USB Controller","Raptor Lake-P Thunderbolt 4 NHI","Alder Lake PCH USB 3.2 xHCI Host Controller",]
+score=2
+[laptops.graphics]
+devices=["Raptor Lake-P [Iris Xe Graphics]",]
+score=1
+[[laptops]]
+model="Lenovo ThinkPad E14 Gen 2 Intel"
+cpu="11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz"
+total_score=8
+probe_dir="Lenovo_ThinkPad_E14_Gen_2_Intel"
+[laptops.networking]
+devices=["Wi-Fi 6 AX201","RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller",]
+score=2
+[laptops.audio]
+devices=["Tiger Lake-LP Smart Sound Technology Audio Controller",]
+score=2
+[laptops.usb]
+devices=["Tiger Lake-LP Thunderbolt 4 USB Controller","Tiger Lake-LP Thunderbolt 4 NHI","Tiger Lake-LP USB 3.2 Gen 2x1 xHCI Host Controller",]
+score=2
+[laptops.graphics]
+devices=["TigerLake-LP GT2 [Iris Xe Graphics]",]
+score=2
+[[laptops]]
+model="Lenovo ThinkPad E15 Gen 2"
+cpu="11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz"
+total_score=8
+probe_dir="Lenovo_ThinkPad_E15_Gen_2"
+[laptops.networking]
+devices=["Wi-Fi 6 AX201","RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller",]
+score=2
+[laptops.audio]
+devices=["Tiger Lake-LP Smart Sound Technology Audio Controller",]
+score=2
+[laptops.usb]
+devices=["Tiger Lake-LP Thunderbolt 4 USB Controller","Tiger Lake-LP Thunderbolt 4 NHI","Tiger Lake-LP USB 3.2 Gen 2x1 xHCI Host Controller",]
+score=2
+[laptops.graphics]
+devices=["TigerLake-LP GT2 [Iris Xe Graphics]",]
+score=2
+[[laptops]]
+model="Lenovo ThinkPad E595"
+cpu="AMD Ryzen 5 3500U with Radeon Vega Mobile Gfx"
+total_score=8
+probe_dir="Lenovo_ThinkPad_E595"
+[laptops.networking]
+devices=["Wi-Fi 5(802.11ac) Wireless-AC 9x6x [Thunder Peak]",]
+score=2
+[laptops.audio]
+devices=["Raven/Raven2/Fenghuang HDMI/DP Audio Controller","Ryzen HD Audio Controller",]
+score=2
+[laptops.usb]
+devices=["Raven USB 3.1","Raven USB 3.1",]
+score=2
+[laptops.graphics]
+devices=["Picasso/Raven 2 [Radeon Vega Series / Radeon Vega Mobile Series]",]
+score=2
+[[laptops]]
+model="Lenovo ThinkPad T14 Gen 2 (AMD)"
+cpu="AMD Ryzen 5 PRO 5650U with Radeon Graphics"
+total_score=6.5
+probe_dir="Lenovo_ThinkPad_T14_Gen_2_AMD"
+[laptops.networking]
+devices=["RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller","MT7921 802.11ax PCIe Wireless Network Adapter [Filogic 330]","RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller",]
+score=0
+[laptops.audio]
+devices=["Renoir/Cezanne HDMI/DP Audio Controller","Ryzen HD Audio Controller",]
+score=2
+[laptops.usb]
+devices=["Renoir/Cezanne USB 3.1","Renoir/Cezanne USB 3.1",]
+score=2
+[laptops.graphics]
+devices=["Cezanne [Radeon Vega Series / Radeon Vega Mobile Series]",]
+score=2
+[[laptops]]
+model="Lenovo ThinkPad T14 Gen 2 (Intel)"
+cpu="11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz"
+total_score=8
+probe_dir="Lenovo_ThinkPad_T14_Gen_2_Intel"
+[laptops.networking]
+devices=["Ethernet Connection (13) I219-V","Wi-Fi 6E(802.11ax) AX210/AX1675* 2x2 [Typhoon Peak]",]
+score=2
+[laptops.audio]
+devices=["Tiger Lake-LP Smart Sound Technology Audio Controller",]
+score=2
+[laptops.usb]
+devices=["Tiger Lake-LP Thunderbolt 4 USB Controller","Tiger Lake-LP Thunderbolt 4 NHI","Tiger Lake-LP Thunderbolt 4 NHI","Tiger Lake-LP USB 3.2 Gen 2x1 xHCI Host Controller",]
+score=2
+[laptops.graphics]
+devices=["TigerLake-LP GT2 [Iris Xe Graphics]",]
+score=2
+[[laptops]]
+model="Lenovo ThinkPad T14s Gen 4 (AMD)"
+cpu="AMD Ryzen 7 PRO 7840U w/ Radeon 780M Graphics"
+total_score=6
+probe_dir="Lenovo_ThinkPad_T14s_Gen_4_AMD"
+[laptops.networking]
+devices=["QCNFA765 Wireless Network Adapter",]
+score=0
+[laptops.audio]
+devices=["Radeon High Definition Audio Controller","Ryzen HD Audio Controller",]
+score=2
+[laptops.usb]
+devices=["USB Controller 1","USB Controller 2",]
+score=2
+[laptops.graphics]
+devices=["Phoenix1",]
+score=2
+[[laptops]]
+model="Lenovo ThinkPad T430"
+cpu="Intel(R) Core(TM) i5-3210M CPU @ 2.50GHz"
+total_score=10
+probe_dir="Lenovo_ThinkPad_T430"
+[laptops.networking]
+devices=["82579LM Gigabit Network Connection (Lewisville)","Centrino Wireless-N 2200",]
+score=4
+[laptops.audio]
+devices=["7 Series/C216 Chipset Family High Definition Audio Controller",]
+score=2
+[laptops.usb]
+devices=["7 Series/C210 Series Chipset Family USB xHCI Host Controller","7 Series/C216 Chipset Family USB Enhanced Host Controller","7 Series/C216 Chipset Family USB Enhanced Host Controller",]
+score=2
+[laptops.graphics]
+devices=["3rd Gen Core processor Graphics Controller",]
+score=2
+[[laptops]]
+model="Lenovo ThinkPad T490"
+cpu="Intel(R) Core(TM) i5-8365U CPU @ 1.60GHz"
+total_score=8
+probe_dir="Lenovo_ThinkPad_T490"
+[laptops.networking]
+devices=["Cannon Point-LP CNVi [Wireless-AC]","Ethernet Connection (6) I219-LM",]
+score=2
+[laptops.audio]
+devices=["Cannon Point-LP High Definition Audio Controller","Navi 21/23 HDMI/DP Audio Controller",]
+score=2
+[laptops.usb]
+devices=["Cannon Point-LP USB 3.1 xHCI Controller","JHL7440 Thunderbolt 3 USB Controller [Titan Ridge DD 2018]",]
+score=2
+[laptops.graphics]
+devices=["WhiskeyLake-U GT2 [UHD Graphics 620]","Navi 22 [Radeon RX 6700/6700 XT/6750 XT / 6800M/6850M XT]",]
+score=2
+[[laptops]]
+model="Lenovo ThinkPad X13 Gen 4 (AMD)"
+cpu="AMD Ryzen 7 PRO 7840U w/ Radeon 780M Graphics"
+total_score=6
+probe_dir="Lenovo_ThinkPad_X13_Gen_4_AMD"
+[laptops.networking]
+devices=["QCNFA765 Wireless Network Adapter",]
+score=0
+[laptops.audio]
+devices=["Radeon High Definition Audio Controller","Ryzen HD Audio Controller",]
+score=2
+[laptops.usb]
+devices=["Pink Sardine USB4/Thunderbolt NHI controller","Pink Sardine USB4/Thunderbolt NHI controller",]
+score=2
+[laptops.graphics]
+devices=["Phoenix1",]
+score=2
+[[laptops]]
+model="Lenovo ThinkPad X1 Carbon Gen 8"
+cpu="Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz"
+total_score=8
+probe_dir="Lenovo_ThinkPad_X1_Carbon_Gen_8"
+[laptops.networking]
+devices=["Comet Lake PCH-LP CNVi WiFi","Ethernet Connection (10) I219-V",]
+score=2
+[laptops.audio]
+devices=["Comet Lake PCH-LP cAVS",]
+score=2
+[laptops.usb]
+devices=["Comet Lake PCH-LP USB 3.1 xHCI Host Controller","JHL6540 Thunderbolt 3 USB Controller (C step) [Alpine Ridge 4C 2016]",]
+score=2
+[laptops.graphics]
+devices=["CometLake-U GT2 [UHD Graphics]",]
+score=2
+[[laptops]]
+model="Lenovo ThinkPad X270"
+cpu="Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz"
+total_score=8
+probe_dir="Lenovo_ThinkPad_X270"
+[laptops.networking]
+devices=["Ethernet Connection (4) I219-V","Wireless 8265 / 8275",]
+score=2
+[laptops.audio]
+devices=["Sunrise Point-LP HD Audio",]
+score=2
+[laptops.usb]
+devices=["Sunrise Point-LP USB 3.0 xHCI Controller",]
+score=2
+[laptops.graphics]
+devices=["HD Graphics 620",]
+score=2
+[[laptops]]
+model="Lenovo Yoga 11e"
+cpu="Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz"
+total_score=8
+probe_dir="Lenovo_Yoga_11e"
+[laptops.networking]
+devices=["Wireless 7265","RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller",]
+score=2
+[laptops.audio]
+devices=["Sunrise Point-LP HD Audio",]
+score=2
+[laptops.usb]
+devices=["Sunrise Point-LP USB 3.0 xHCI Controller",]
+score=2
+[laptops.graphics]
+devices=["HD Graphics 620",]
+score=2
+[[laptops]]
+model="Lenovo Yoga Pro 7"
+cpu="AMD Ryzen AI 9 365 w/ Radeon 880M"
+total_score=6
+probe_dir="Lenovo_Yoga_Pro_7"
+[laptops.networking]
+devices=["MT7922 802.11ax PCI Express Wireless Network Adapter",]
+score=0
+[laptops.audio]
+devices=["Radeon High Definition Audio Controller [Rembrandt/Strix]","Family 17h/19h/1ah HD Audio Controller",]
+score=2
+[laptops.usb]
+devices=["USB4 Router 0",]
+score=2
+[laptops.graphics]
+devices=["Strix [Radeon 880M / 890M]",]
+score=2
+[[laptops]]
+model="MSI GE60 2OC"
+cpu="Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz"
+total_score=7
+probe_dir="MSI_GE60_2OC"
+[laptops.networking]
+devices=["Killer E220x Gigabit Ethernet Controller","RTL8723AE PCIe Wireless Network Adapter",]
+score=1
+[laptops.audio]
+devices=["Xeon E3-1200 v3/4th Gen Core Processor HD Audio Controller","8 Series/C220 Series Chipset High Definition Audio Controller",]
+score=2
+[laptops.usb]
+devices=["8 Series/C220 Series Chipset Family USB xHCI","8 Series/C220 Series Chipset Family USB EHCI","8 Series/C220 Series Chipset Family USB EHCI",]
+score=2
+[laptops.graphics]
+devices=["4th Gen Core Processor Integrated Graphics Controller",]
+score=2
+[[laptops]]
+model="MSI GE60 2OE"
+cpu="Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz"
+total_score=6.5
+probe_dir="MSI_GE60_2OE"
+[laptops.networking]
+devices=["Killer E220x Gigabit Ethernet Controller","RTL8723AE PCIe Wireless Network Adapter",]
+score=0
+[laptops.audio]
+devices=["Xeon E3-1200 v3/4th Gen Core Processor HD Audio Controller","8 Series/C220 Series Chipset High Definition Audio Controller",]
+score=2
+[laptops.usb]
+devices=["8 Series/C220 Series Chipset Family USB xHCI","8 Series/C220 Series Chipset Family USB EHCI","8 Series/C220 Series Chipset Family USB EHCI",]
+score=2
+[laptops.graphics]
+devices=["4th Gen Core Processor Integrated Graphics Controller",]
+score=2
+[[laptops]]
+model="MacBook Pro 13 inch (2016)"
+cpu="Intel(R) Core(TM) i5-6360U CPU @ 2.00GHz"
+total_score=7
+probe_dir="MacBook_Pro_13_inch_2016"
+[laptops.networking]
+devices=["BCM4350 802.11ac Wireless Network Adapter",]
+score=1
+[laptops.audio]
+devices=["Sunrise Point-LP HD Audio",]
+score=2
+[laptops.usb]
+devices=["Sunrise Point-LP USB 3.0 xHCI Controller","JHL6540 Thunderbolt 3 USB Controller (C step) [Alpine Ridge 4C 2016]",]
+score=2
+[laptops.graphics]
+devices=["Iris Graphics 540",]
+score=2
+[[laptops]]
+model="Mechrevo JIAOLONG Dragon 16 Pro 2025"
+cpu="AMD Ryzen 9 8940HX with Radeon Graphics"
+total_score=6
+probe_dir="Mechrevo_JIAOLONG_Dragon_16_Pro_2025"
+[laptops.networking]
+devices=["MT7922 802.11ax PCI Express Wireless Network Adapter","RTL8125 2.5GbE Controller",]
+score=1
+[laptops.audio]
+devices=["GB206 High Definition Audio Controller","Radeon High Definition Audio Controller","Ryzen HD Audio Controller",]
+score=2
+[laptops.usb]
+devices=["Raphael/Granite Ridge USB 3.1 xHCI","Raphael/Granite Ridge USB 3.1 xHCI","Raphael/Granite Ridge USB 2.0 xHCI",]
+score=2
+[laptops.graphics]
+devices=["GB206M [GeForce RTX 5060 Max-Q / Mobile]","Raphael",]
+score=1
+[[laptops]]
+model="Microsoft Surface Book with Performance Base"
+cpu="Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz"
+total_score=6
+probe_dir="Microsoft_Surface_Book_with_Performance_Base"
+[laptops.networking]
+devices=["88W8897 [AVASTAR] 802.11ac Wireless",]
+score=0
+[laptops.audio]
+devices=["Sunrise Point-LP HD Audio",]
+score=2
+[laptops.usb]
+devices=["Sunrise Point-LP USB 3.0 xHCI Controller",]
+score=2
+[laptops.graphics]
+devices=["Skylake-U GT2 [HD Graphics 520]",]
+score=2
+[[laptops]]
+model="TUXEDO InfinityBook Pro AMD Gen9"
+cpu="AMD Ryzen 7 8845HS w/ Radeon 780M Graphics"
+total_score=6.25
+probe_dir="TUXEDO_InfinityBook_Pro_AMD_Gen9"
+[laptops.networking]
+devices=["YT6801 Gigabit Ethernet Controller","Wi-Fi 6E(802.11ax) AX210/AX1675* 2x2 [Typhoon Peak]",]
+score=0
+[laptops.audio]
+devices=["Radeon High Definition Audio Controller","Ryzen HD Audio Controller",]
+score=2
+[laptops.usb]
+devices=["Pink Sardine USB4/Thunderbolt NHI controller",]
+score=2
+[laptops.graphics]
+devices=["HawkPoint1",]
+score=2
